@@ -18,7 +18,7 @@ services:
         image: php:fpm
         volumes:
             - ./code:/code
-            - ./log.conf:/usr/local/etc/php-fpm.d/99-log.conf
+            - ./log.ini:/usr/local/etc/php/conf.d/99-log.ini
         networks:
             - code-network
 
