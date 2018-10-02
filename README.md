@@ -1,5 +1,5 @@
 ## Instructions
 1. Checkout the repository
 
-* Run `docker-compose up`
+* Run `docker-compose up -d`
 * Navigate to localhost:8080
